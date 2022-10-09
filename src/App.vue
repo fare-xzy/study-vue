@@ -1,14 +1,25 @@
 <template>
   <div id="app">
     <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link> |
+      <router-link to="/">Home</router-link>
+      |
+      <router-link to="/about">About</router-link>
+      |
       <router-link to="/mixinTest">MixinTest</router-link>
+      |
+      <router-link to="/handlerTest">HandlerTest</router-link>
+      |
+      <router-link to="/ignoredElementsTest">IgnoredElementsTest</router-link>
+      |
     </nav>
     <router-view/>
   </div>
 </template>
-
+<script>
+export default {
+  name: "app"
+}
+</script>
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;

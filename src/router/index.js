@@ -24,6 +24,16 @@ const routes = [
     path: '/mixinTest',
     name: 'MixinTest',
     component: () => import('@/study/MixinTest.vue')
+  },
+  {
+    path: '/handlerTest',
+    name: 'HandlerTest',
+    component: () => import('@/study/HandlerTest.vue')
+  },
+  {
+    path: '/ignoredElementsTest',
+    name: 'IgnoredElementsTest',
+    component: () => import('@/study/IgnoredElementsTest.vue')
   }
 ]
 
