@@ -11,6 +11,8 @@
       |
       <router-link to="/ignoredElementsTest">IgnoredElementsTest</router-link>
       |
+      <router-link to="/nextTickTest">NextTickTest</router-link>
+      |
     </nav>
     <router-view/>
   </div>

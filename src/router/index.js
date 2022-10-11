@@ -23,17 +23,22 @@ const routes = [
   {
     path: '/mixinTest',
     name: 'MixinTest',
-    component: () => import('@/study/MixinTest.vue')
+    component: () => import('@/study/global-configuration/MixinTest.vue')
   },
   {
     path: '/handlerTest',
     name: 'HandlerTest',
-    component: () => import('@/study/HandlerTest.vue')
+    component: () => import('@/study/global-configuration/HandlerTest.vue')
   },
   {
     path: '/ignoredElementsTest',
     name: 'IgnoredElementsTest',
-    component: () => import('@/study/IgnoredElementsTest.vue')
+    component: () => import('@/study/global-configuration/IgnoredElementsTest.vue')
+  },
+  {
+    path: '/nextTickTest',
+    name: 'NextTickTest',
+    component: () => import('@/study/global-api/NextTickTest.vue')
   }
 ]
 

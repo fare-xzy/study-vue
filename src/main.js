@@ -41,7 +41,7 @@ Vue.config.keyCodes = {
   vueTestKeyCodes : [8, 13]
 }
 
-
+// 全局API
 
 
 new Vue({
